@@ -1,0 +1,62 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+*.log
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settingsynced.json
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn/
+
+# Laravel
+backend/vendor/
+backend/.env
+backend/bootstrap/cache/
+backend/storage/
+backend/node_modules/
+
+# Flutter
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/build/
+mobile/.packages
+mobile/pubspec.lock
+
+# React
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Database
+*.sqlite
+*.db
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Docker
+.docker/
+docker-compose.override.yml
